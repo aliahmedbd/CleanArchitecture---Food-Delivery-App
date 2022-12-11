@@ -30,6 +30,4 @@ class NetworkModule {
     fun provideApi(retrofit: Retrofit) {
         retrofit.create(JustEatApi::class.java)
     }
-
-
 }
